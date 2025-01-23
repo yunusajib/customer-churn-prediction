@@ -1,0 +1,17 @@
+# Ignore Python bytecode and cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints
+
+# OS-specific or editor-specific files
+.DS_Store
+
+# Data folders (optional choice)
+data/raw/
+data/processed/
+
+# Model files (optional choice if large)
+models/
+
+# Jupyter notebook checkpoints
+*.ipynb_checkpoints
