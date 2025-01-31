@@ -11,5 +11,6 @@ for col in cat_cols:
     train_val_unique = set(train_val[col].dropna().unique())
     test_unique = set(test[col].dropna().unique())
     diff = test_unique - train_val_unique
+
     if diff:
         print(f"{col} has unknown categories in test: {diff}")
