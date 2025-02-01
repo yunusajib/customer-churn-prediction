@@ -10,7 +10,7 @@ def log_transform(X):
     return np.log1p(X)
 
 # **Load trained model and preprocessing pipeline**
-model_data = joblib.load("models/final_best_model.pkl")
+model_data = joblib.load("Models/final_best_model.pkl")
 
 # ✅ **Ensure the custom function is reattached to the preprocessor**
 preprocessor = model_data["preprocessor"]
